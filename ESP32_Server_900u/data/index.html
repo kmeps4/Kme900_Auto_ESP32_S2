@@ -182,17 +182,17 @@ function sleep(ms) {
       msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Menu Loaded!!!</h1>";
     }
 
-    function load_goldhen224(){
-    msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN V2.2.4 Please wait!!!</h1>";
-    LoadedMSG="GoldHEN V2.2.4 Loaded";
-    PLfile = "pl_goldhen224.bin";
+    function load_goldhen24b14(){
+    msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN v2.4b14 Please wait!!!</h1>";
+    LoadedMSG="GoldHEN v2.4b14 Loaded";
+    PLfile = "pl_goldhen24b14.bin";
     loadPayloadData();
     }
 
-    function load_goldhen225b8(){
-    msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN V2.2.5b8 Please wait!!!</h1>";
-    LoadedMSG="GoldHEN V2.2.5b8 Loaded";
-    PLfile = "pl_goldhen225b8.bin";
+    function load_goldhen23(){
+    msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN v2.3 Please wait!!!</h1>";
+    LoadedMSG="GoldHEN v2.3 Loaded";
+    PLfile = "pl_goldhen23.bin";
     loadPayloadData();
     }
 
@@ -554,8 +554,8 @@ loadPayloadData();
       <button class="btnkme" onMouseOver="msgs.innerHTML='Receives .Bin payloads on port 9021 via NetCat'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_binserver9021(); return false">Binloader-9021</button>
       <br>
       <div style=font-size:16px>GOLDHEN</div>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.2.5b8 (Latest) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_goldhen225b8(); return false">GoldHEN V2.2.5b8 (Latest)</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.2.4 (Latest) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_goldhen224(); return false">GoldHEN V2.2.4</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.4b14 (Beta) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_goldhen24b14(); return false">GoldHEN v2.4b14 (Beta)</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.3 (Latest) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_goldhen23(); return false">GoldHEN v2.3 (Latest)</button>
       <br>
       <div style=font-size:16px>PAYLOADS</div>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Modded Version of App Dumper to Backup PKG files to External HDD  / 9.00 Mod by Kameleon'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_pkg_backup(); return false">PKG-BackUp v1.1</button>
@@ -567,7 +567,7 @@ loadPayloadData();
     <button class="btnkme" onMouseOver="msgs.innerHTML='Exit IDU / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_exitidu(); return false">Exit-IDU</button>
     <br><br>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Rifrenamer / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_rifrenamer(); return false">Rif-Renamer</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Ftp v1.3 - Original Version By xVortex / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_ftp(); return false">Ftp-Server</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Ftp v1.08a - Original Version By xVortex / Mod By Hippie68'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_ftp(); return false">Hippie68 Ftp-Server</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='History-Blocker - v2.0 Original Version By Stooged / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_historyblocker(); return false">History-Blocker</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Kernel-Dumper - v1.0 Original Version By Eversion / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_kerneldumper(); return false">Kernel-Dumper</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='PSN Account Offline Web Activator - By Sleirsgoevy'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_webactivator(); return false">Web-Offline-Activator</button>

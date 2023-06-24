@@ -53,7 +53,7 @@
 
 //create access point
 boolean startAP = true;
-String AP_SSID = "Kme900Auto_ESP32S2";
+String AP_SSID = "Kme900_Auto_ESP32S2";
 String AP_PASS = "123456789";
 IPAddress Server_IP(10, 1, 1, 1);
 IPAddress Subnet_Mask(255, 255, 255, 0);
