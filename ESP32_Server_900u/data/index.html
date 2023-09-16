@@ -292,7 +292,6 @@ function load_orbistoolbox(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Orbis Tool Box v1190. Please wait!.</h1>";
 LoadedMSG="Orbis Tool Box v1190 Loaded";
 PLfile = "pl_OrbisToolbox.bin";
-
 loadPayloadData();
 }
 
@@ -300,7 +299,6 @@ function load_disableupdates(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Disable-Updates. Please wait!.</h1>";
 LoadedMSG="Disable-Updates Loaded";
 PLfile = "pl_disableupdates.bin";
-
 loadPayloadData();
 }
 
@@ -371,6 +369,41 @@ function load_kerneldumper(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Kernel-Dumper. Please wait!.</h1>";
 LoadedMSG="Kernel-Dumper Loaded";
 PLfile = "pl_kerneldumper.bin";
+loadPayloadData();
+}
+
+function load_beefqueef(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading BeefQueef Unified. Please wait!.</h1>";
+LoadedMSG="BeefQueef Unified Loaded";
+PLfile = "pl_beefqueef.bin";
+loadPayloadData();
+}
+
+function load_wildemodz(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading WildModz. Please wait!.</h1>";
+LoadedMSG="WildeModz GTA5 Unified Loaded";
+PLfile = "pl_wildemodz.bin";
+loadPayloadData();
+}
+
+function load_NorthBeta(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Read Dead Redemption II North Beta Mod v1.29 . Please wait!.</h1>";
+LoadedMSG="RDR II North Beta Mod v1.29 Loaded";
+PLfile = "pl_NorthBeta011.bin";
+loadPayloadData();
+}
+
+function load_oyster(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Oysters RDR2 Mod Menu . Please wait!.</h1>";
+LoadedMSG="Oysters RDR2 v1.29 Mod Menu Loaded";
+PLfile = "pl_oysters.bin";
+loadPayloadData();
+}
+
+function load_wildemodzrdr(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading WildeModz RDR2 Mod Menu . Please wait!.</h1>";
+LoadedMSG="WildeModz RDR2 v1.29 Mod Menu Loaded";
+PLfile = "pl_wildewodz-rdr2.bin";
 loadPayloadData();
 }
 
@@ -581,8 +614,13 @@ loadPayloadData();
     <button class="btnkme" onMouseOver="msgs.innerHTML='Permanent UART - 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_uart(); return false">Permanent-UART</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Disable ASLR - 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_disableaslr(); return false">Disable-ASLR</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Kernel-Module Dumper -  9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_moduledumper(); return false">Kernel-Module-Dumper</button>
-    </div>
-    <br><br>
+      <div style=font-size:16px>GAME MOD PAYLOADS</div>
+	<button class="btnkme" onMouseOver="msgs.innerHTML='WildeModz GTA5 Mod Menu Unified - by Wilde Modz'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_wildemodz(); return false">WildeModz-Unified</button>  
+    <button class="btnkme" onMouseOver="msgs.innerHTML='BeefQueef GTA5 Mod Menu Unified - by GraFfiX420'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_beefqueef(); return false">BeefQueef-Unified</button>	  
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Oysters RDR2 Mod Menu Only for 1.29 - by rfoodxmodz'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_oyster(); return false">Oysters-RDR2-Mod</button>    
+	<button class="btnkme" onMouseOver="msgs.innerHTML='Red Dead Redemption II North Beta Mod v0.11 Only For Update v1.29 - By David133Hax'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_NorthBeta(); return false">RDR II North Beta Mod</button>	  
+	<button class="btnkme" onMouseOver="msgs.innerHTML='Red Dead Redemption II WildeMods Only For Update v1.29 - By Wilde Modz'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_wildemodzrdr(); return false">RDR II WildeModz Mod</button>	 
+	 <div style=font-size:16px>LINUX PAYLOADS</div>
     <a id="linuxl" ><button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loaders Payloads'" ; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" type="button">Linux Vram Payloads</button></a>
     <div id="linuxlJ" style="display: none;">
       <br>
