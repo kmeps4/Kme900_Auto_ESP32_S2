@@ -192,8 +192,8 @@ function sleep(ms) {
     }
 
     function load_goldhenbeta(){
-    msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN v2.4b16.2 Please wait!!!</h1>";
-    LoadedMSG="GoldHEN v2.4b16.2 Loaded";
+    msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN v2.4b18 Please wait!!!</h1>";
+    LoadedMSG="GoldHEN v2.4b18 Loaded";
     PLfile = "pl_goldhenbeta.bin";
     loadPayloadData();
     }
@@ -297,13 +297,6 @@ link.href = '900.html';
 link.click();
 }
 
-function load_orbistoolbox(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Orbis Tool Box v1190. Please wait!.</h1>";
-LoadedMSG="Orbis Tool Box v1190 Loaded";
-PLfile = "pl_OrbisToolbox.bin";
-loadPayloadData();
-}
-
 function load_disableupdates(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Disable-Updates. Please wait!.</h1>";
 LoadedMSG="Disable-Updates Loaded";
@@ -378,41 +371,6 @@ function load_kerneldumper(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Kernel-Dumper. Please wait!.</h1>";
 LoadedMSG="Kernel-Dumper Loaded";
 PLfile = "pl_kerneldumper.bin";
-loadPayloadData();
-}
-
-function load_beefqueef(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading BeefQueef Unified. Please wait!.</h1>";
-LoadedMSG="BeefQueef Unified Loaded";
-PLfile = "pl_beefqueef.bin";
-loadPayloadData();
-}
-
-function load_wildemodz(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading WildModz. Please wait!.</h1>";
-LoadedMSG="WildeModz GTA5 Unified Loaded";
-PLfile = "pl_wildemodz.bin";
-loadPayloadData();
-}
-
-function load_NorthBeta(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Read Dead Redemption II North Beta Mod v1.29 . Please wait!.</h1>";
-LoadedMSG="RDR II North Beta Mod v1.29 Loaded";
-PLfile = "pl_NorthBeta011.bin";
-loadPayloadData();
-}
-
-function load_oyster(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Oysters RDR2 Mod Menu . Please wait!.</h1>";
-LoadedMSG="Oysters RDR2 v1.29 Mod Menu Loaded";
-PLfile = "pl_oysters.bin";
-loadPayloadData();
-}
-
-function load_wildemodzrdr(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading WildeModz RDR2 Mod Menu . Please wait!.</h1>";
-LoadedMSG="WildeModz RDR2 v1.29 Mod Menu Loaded";
-PLfile = "pl_wildewodz-rdr2.bin";
 loadPayloadData();
 }
 
@@ -531,16 +489,9 @@ PLfile = "pl_psxita_pro_4gb.js";
 loadPayloadDataSleirs(PLfile);
 }
 
-function load_whos_southbridge(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Whos That South-Bridge v2 . Please wait!</h1>";
-LoadedMSG="Whos That South-Bridge v2 Loaded";
-PLfile = "pl_wtsb.bin";
-loadPayloadData();
-}
-
 function load_ps4debug(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading CTN Ps4Debug v1.0.15. Please wait!.</h1>";
-LoadedMSG="CTN Ps4Debug v1.0.15 Loaded";
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading CTN Ps4Debug v1.0.16. Please wait!.</h1>";
+LoadedMSG="CTN Ps4Debug v1.0.16 Loaded";
 PLfile = "pl_ps4debug.bin";
 loadPayloadData();
 }
@@ -596,12 +547,11 @@ loadPayloadData();
       <button class="btnkme" onMouseOver="msgs.innerHTML='Receives .Bin payloads on port 9021 via NetCat'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_binserver9021(); return false">Binloader-9021</button>
       <br>
       <div style=font-size:16px>GOLDHEN</div>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.4b16.2 (Latest) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_goldhenbeta(); return false">GoldHEN v2.4b16.2 (Latest)</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.4b18 (Latest) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_goldhenbeta(); return false">GoldHEN v2.4b18 (Latest)</button>
       <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.3 - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_goldhen23(); return false">GoldHEN v2.3</button>
       <br>
       <div style=font-size:16px>PAYLOADS</div>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Modded Version of App Dumper to Backup PKG files to External HDD  / 9.00 Mod by Kameleon'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_pkg_backup(); return false">PKG-BackUp v1.1</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Orbis Tool Box v1190 - By OSM'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_orbistoolbox(); return false">Orbis-Tool-Box</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='App Dumper Only v1.8 - Original Version By xVortex / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_dumper(); return false">App-Dumper</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Disable-Updates v1.0 - By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_disableupdates(); return false">Disable-Updates</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Enable-Updates v1.0 - By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_enableupdates(); return false">Enable-Updates</button>
@@ -613,7 +563,7 @@ loadPayloadData();
     <button class="btnkme" onMouseOver="msgs.innerHTML='History-Blocker - v2.0 Original Version By Stooged / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_historyblocker(); return false">History-Blocker</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Kernel-Dumper - v1.0 Original Version By Eversion / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_kerneldumper(); return false">Kernel-Dumper</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='PSN Account Offline Web Activator - By Sleirsgoevy'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_webactivator(); return false">Web-Offline-Activator</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Ps4Debug v1.0.15 - By CTN123'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_ps4debug(); return false">Ps4Debug v1.0.15</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Ps4Debug v1.0.16 - By CTN123'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_ps4debug(); return false">Ps4Debug v1.0.16</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='DB-Backup v1.0 - By Leeful / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_backup(); return false">DB-Backup</button>
     <br><br>
     <button class="btnkme" onMouseOver="msgs.innerHTML='App-2-Usb - Original Version By Stooged / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_app2usb(); return false">App-2-Usb</button>
@@ -623,19 +573,13 @@ loadPayloadData();
     <button class="btnkme" onMouseOver="msgs.innerHTML='Permanent UART - 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_uart(); return false">Permanent-UART</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Disable ASLR - 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_disableaslr(); return false">Disable-ASLR</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Kernel-Module Dumper -  9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_moduledumper(); return false">Kernel-Module-Dumper</button>
-      <div style=font-size:16px>GAME MOD PAYLOADS</div>
-	<button class="btnkme" onMouseOver="msgs.innerHTML='WildeModz GTA5 Mod Menu Only For Update v1.47 - by Wilde Modz'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_wildemodz(); return false">WildeModz-Unified</button>  
-    <button class="btnkme" onMouseOver="msgs.innerHTML='BeefQueef GTA5 Mod Menu Only For Update v1.47 - by GraFfiX420'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_beefqueef(); return false">BeefQueef-Unified</button>	  
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Oysters RDR2 Mod Menu Only for 1.29 - by rfoodxmodz'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_oyster(); return false">Oysters-RDR2-Mod</button>    
-	<button class="btnkme" onMouseOver="msgs.innerHTML='Red Dead Redemption II North Beta Mod v0.11 Only For Update v1.29 - By David133Hax'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_NorthBeta(); return false">RDR II North Beta Mod</button>	  
-	<button class="btnkme" onMouseOver="msgs.innerHTML='Red Dead Redemption II WildeMods Only For Update v1.29 - By Wilde Modz'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_wildemodzrdr(); return false">RDR II WildeModz Mod</button>	 
-	 <div style=font-size:16px>LINUX PAYLOADS</div>
+   	 <div style=font-size:16px>LINUX PAYLOADS</div>
     <a id="linuxl" ><button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loaders Payloads'" ; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" type="button">Linux Vram Payloads</button></a>
     <div id="linuxlJ" style="display: none;">
-      <br>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Whos that South-Bridge (Aeolia, Belize, Baikal) - 9.00 Port By OrbisUnjailed'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_whos_southbridge(); return false">Whos that South-Bridge</button>
       <br><br>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 1GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux1gb(); return false">NazkyYT Linux 1GB Vram</button>
+      <button class="btnkme" 
+onMouseOver="msgs.innerHTML='Linux Vram Loader 1GB - 9.00 Port By NazkyYT'"; 
+onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux1gb(); return false">NazkyYT Linux 1GB Vram</button>
       <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 2GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux2gb(); return false">NazkyYT Linux 2GB Vram</button>
       <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 3GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux3gb(); return false">NazkyYT Linux 3GB Vram</button>
       <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 4GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux4gb(); return false">NazkyYT Linux 4GB Vram</button>
